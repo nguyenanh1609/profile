@@ -106,6 +106,10 @@ textarea {
 	text-align: center;
 	border-radius: 3px;
 }
+.single-contact i{
+	color: var(--black);
+}
+
 .single-contact h5 {
 	font-size: 18px;
 	margin-bottom: 10px;
@@ -124,8 +128,8 @@ textarea {
 	transition: .4s
 }
 .contact-form input[type="submit"]:hover {
-	background-color: #CC5B00
+	background-color: var(--white)
 }
 .contact-form input:focus, textarea:focus {
-	border-color: #CC5B00
+	border-color: var(--white)
 }
