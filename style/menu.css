@@ -1,0 +1,86 @@
+.te {
+  height: 2000px;
+}
+.tee {
+  height: 100px;
+  background-color: brown;
+}
+.menu {
+  font-size: 32px;
+  color: var(--white);
+}
+.menu .menu-bar {
+  position: absolute;
+  top: 30px;
+  right: 70px;
+}
+.menu .menu-bar:hover {
+  color: var(--vang);
+}
+
+.menu .menu-sub {
+  width: 500px;
+  box-shadow: 5px 0px 18px var(--gray);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: var(--black);
+  transform: translateX(110%);
+  /* display: none;    */
+  transition: all 0.6s ease;
+}
+.menu .click-clear {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  /* background-color: blue; */
+  display: none;
+}
+.menu .menu-sub .close-menu {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.menu .menu-sub .close-menu:hover {
+  color: var(--vang);
+}
+.menu-sub .fa {
+  margin-top: 100px;
+  margin-left: 50px;
+  color: var(--gray);
+  font-size: 24px;
+}
+.menu-sub .fa:hover{
+    color: var(--vang);
+    transition: color .3s ease-out;
+}
+.menu-sub ul {
+  margin-top: 20px;
+  padding: 20px 50px;
+  list-style-type: none;
+  font-weight: bold;
+}
+.menu-sub ul li {
+    padding-top: 20px;
+}
+.menu-sub ul li a {
+  text-decoration: none;
+  color: var(--gray);
+}
+.menu-sub ul li a:hover {
+    color: var(--white);
+    transition: color .3s ease-out;
+  }
+@media screen and (max-width: 540px) {
+  .menu .menu-bar {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+  .menu .menu-sub {
+    width: 100%;
+  }
+}

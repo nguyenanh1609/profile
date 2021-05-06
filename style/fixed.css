@@ -1,0 +1,78 @@
+.fixed .fixed-top {
+  height: 100px;
+  position: fixed;
+  top: 20px;
+  left: 50px;
+}
+.fixed .fixed-top .logo {
+  display: inline-block;
+  line-height: 100px;
+}
+.fixed .fixed-top .logo img {
+  width: 40px;
+}
+.fixed .fixed-top .contact {
+  display: inline-block;
+  line-height: 100px;
+  margin-left: 100px;
+}
+.fixed .fixed-top .contact a {
+  font-size: 24px;
+  color: var(--white);
+  padding-left: 20px;
+}
+.fixed .fixed-top .contact a i:hover {
+  color: var(--vang);
+  transform: translateY(-3px);
+  transition: all 0.1s ease;
+}
+.fixed .fixed-top .logo a img:hover {
+  transform: translateY(-3px);
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 10px;
+  left: 30px;
+}
+.fixed-bottom .Copyrights p {
+  color: var(--white);
+  font-size: 16px;
+}
+
+.fixed-right {
+  position: fixed;
+  right: 30px;
+  top: 400px;
+  z-index: 666;
+}
+.fixed-right ul {
+  display: block;
+  list-style-type: none;
+}
+.fixed-right ul li {
+  padding: 15px 0px;
+}
+.fixed-right ul li a {
+  color: var(--white);
+}
+.fixed-right ul li a:hover {
+  color: var(--vang);
+}
+
+@media screen and (max-width: 540px) {
+  .fixed .fixed-top .contact {
+    display: none;
+  }
+  .fixed .fixed-top {
+    top: 10px;
+    left: 20px;
+  }
+  .fixed-bottom {
+    bottom: 10px;
+    left: 20px;
+  }
+  .fixed-right {
+    display: none;
+  }
+}

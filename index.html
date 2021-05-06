@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profile: nguyen_huu_anh</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <link rel="shortcut icon" type="image/png" href="img/logo32.png" />
+    <link rel="shortcut icon" type="image/png" href="img/logo72.png" />
+    <link rel="shortcut icon" type="image/png" href="img/logo114.png" />
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/fixed.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/infor.css">
+
+
+    <title>PROFILE: Nguyễn Hữu Ánh</title>
 </head>
+
 <body>
-    
+
+    <section class="fixed">
+        <div class="fixed-top">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <div class="contact">
+                <a target="_blank" href="https://www.facebook.com/nguyenanh.16092000/"><i
+                        class="fab fa-facebook-square"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/nguyenanh16092000/"><i
+                        class="fab fa-linkedin"></i></a>
+                <a target="_blank" href="https://twitter.com/nguyenanh160920"><i class="fab fa-twitter-square"></i></a>
+                <a target="_blank" href="mailto:nguyenhuuanh102000@gmail.com"><i
+                        class="fab fa-google-plus-square"></i></a>
+            </div>
+            <div class="menu">
+                <div class="menu-bar" id="menu-bar" onclick="btnbar()">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="click-clear" id="click-clear" onclick="btnclose()"></div>
+                <div class="menu-sub" id="menu-sub">
+
+                    <div onclick="btnclose()" class="close-menu"><i class="fas fa-times"></i></div>
+                    <a target="_blank" class="fa" href="https://www.facebook.com/nguyenanh.16092000/"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a target="_blank" class="fa" href="mailto:nguyenhuuanh102000@gmail.com"><i
+                            class="fab fa-google"></i></a>
+                    <ul>
+                        <li><a href="#home">Giới Thiệu</a></li>
+                        <li><a href="">Thông Tin</a></li>
+                        <li><a href="">Học Vấn</a></li>
+                        <li><a href="">Thành Tích</a></li>
+                        <li><a href="">liên Hệ</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="fixed-bottom">
+            <div class="Copyrights">
+                <p id="Copyrights"><i class="far fa-copyright"> nguyen anh</i></p>
+            </div>
+        </div>
+    </section>
+    <div class="fixed-right">
+        <ul>
+            <li><a href="#home"><i class="fas fa-circle"></i></a></li>
+            <li><a href="#infor"><i class="fas fa-circle"></i></a></li>
+            <li><a href=""><i class="fas fa-circle"></i></a></li>
+            <li><a href=""><i class="fas fa-circle"></i></a></li>
+            <li><a href=""><i class="fas fa-circle"></i></a></li>
+        </ul>
+    </div>
+    <section class="home" id="home">
+        <div class="home-item">
+            <p>Hello, I'm</p>
+            <p class="text-name">Nguyễn Hữu Ánh</p>
+            <p>I'm a Front End Web Developer</p>
+        </div>
+    </section>
+    <section id="infor" class="infor">
+
+
+    </section>
+
+    <div class="te"></div>
+
+
+    <script src="bootstrap/js/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/index.js">
+    </script>
+
 </body>
+
 </html>

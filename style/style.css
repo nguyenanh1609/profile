@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    /* position: fixed; */
+    font-size: 16px
+}
+body{
+    background: #272727;
+    /* overflow: hidden; */
+}
+
+:root{
+    --vang: #f3ca2f;
+    --white: #fff;
+    --black:#272727;
+    --gray:#7e7e7e;
+}
+::selection {
+    background:var(--vang); 
+    color:var(--white);
+}
+
+.toi,.sang{
+    color: white;
+} 
