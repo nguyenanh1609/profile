@@ -17,16 +17,3 @@ function showan() {
     document.getElementById('show-avatar').style.display = "none"
 }
 
-
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop >=20 && document.documentElement.scrollTop > 20) {
-        document.getElementById("home-cham").style.color="var(--vang)"
-    } else {
-    }
-}
-
-var x= screen.availHeight
-console.log(x)
