@@ -30,7 +30,7 @@
         color: var(--vang);
     }
     .home{
-        padding: 20px;
+        padding: 100px 20px 300px 20px;
     }
   }
   @media screen and (min-width: 541px) and (max-width: 720px){
