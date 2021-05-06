@@ -10,3 +10,11 @@ function btnclose() {
     document.getElementById("menu-bar").style.display="block"
 
 }
+function showhien()
+{
+    document.getElementById('show-avatar').style.display="block"
+}
+function showan()
+{
+    document.getElementById('show-avatar').style.display="none"
+}

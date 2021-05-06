@@ -1,0 +1,8 @@
+.hoc-van{
+    width: 100%;
+    background-image: url("/img/bg2-4.jpg");
+    background-size: cover;
+    height: 1024px;
+    background-position: center;
+    background-repeat: repeat-y;
+}

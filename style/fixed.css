@@ -36,7 +36,7 @@
   left: 30px;
 }
 .fixed-bottom .Copyrights p {
-  color: var(--white);
+  color: var(--gray);
   font-size: 16px;
 }
 

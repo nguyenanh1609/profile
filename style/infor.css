@@ -1,6 +1,99 @@
-.infor{
-    width: 100%;
-    height: 800px;
-    background-color: var(--gray);
-    padding: 100px;
+.infor {
+  width: 100%;
+  /* height: 800px; */
+  /* background-color: var(--gray); */
+  padding: 100px 200px 100px 200px;
+  /* font-size: 1rem; */
+  display: flex;
+  justify-content: space-betweenư;
+  align-items: center;
+  /* align-content: ; */
+  color: var(--white);
+  position: relative;
+}
+.infor table {
+  font-size: 2rem;
+}
+.infor table td {
+  /* padding-right: 50px; */
+  padding: 20px 50px 10px 0px;
+}
+.infor table .name {
+  font-weight: bold;
+  font-size: 2rem;
+}
+label {
+  color: var(--vang);
+}
+
+.avatar {
+  position: absolute;
+  right: 400px;
+  font-size: 6rem;
+  color: var(--white);
+}
+.avatar:hover {
+  color: var(--vang);
+}
+.show-avatar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.show-avatar img {
+  display: block;
+  margin: auto;
+  padding-top: 200px;
+  opacity: 1;
+}
+
+@media screen and (max-width: 540px) {
+    .avatar{
+        display: none;
+    }
+    .infor{
+        padding: 10px;
+    }
+    .infor table {
+        font-size: 1rem;
+      }
+      .infor table td {
+        /* padding-right: 50px; */
+        padding: 5px 5px 5px 0px;
+      }
+
+}
+@media screen and (min-width: 541px) and (max-width: 720px) {
+    .avatar{
+        display: none;
+    }
+    .infor{
+        padding: 50px;
+    }
+    .infor table {
+        font-size: 1rem;
+      }
+      .infor table td {
+        /* padding-right: 50px; */
+        padding: 5px 5px 5px 0px;
+      }
+}
+@media screen and (min-width: 721px) and (max-width: 960px) {
+    .avatar{
+        display: none;
+    }
+    .infor{
+        padding: 100px;
+    }
+    .infor table {
+        font-size: 2rem;
+      }
+      .infor table td {
+        /* padding-right: 50px; */
+        padding: 5px 5px 5px 0px;
+      }
 }

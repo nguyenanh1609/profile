@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="style/menu.css">
     <link rel="stylesheet" href="style/home.css">
     <link rel="stylesheet" href="style/infor.css">
+    <link rel="stylesheet" href="style/hocvan.css">
 
 
     <title>PROFILE: Nguyễn Hữu Ánh</title>
@@ -54,8 +55,8 @@
                             class="fab fa-google"></i></a>
                     <ul>
                         <li><a href="#home">Giới Thiệu</a></li>
-                        <li><a href="">Thông Tin</a></li>
-                        <li><a href="">Học Vấn</a></li>
+                        <li><a href="#infor">Thông Tin</a></li>
+                        <li><a href="#hoc-van">Học Vấn</a></li>
                         <li><a href="">Thành Tích</a></li>
                         <li><a href="">liên Hệ</a></li>
                     </ul>
@@ -73,7 +74,7 @@
         <ul>
             <li><a href="#home"><i class="fas fa-circle"></i></a></li>
             <li><a href="#infor"><i class="fas fa-circle"></i></a></li>
-            <li><a href=""><i class="fas fa-circle"></i></a></li>
+            <li><a href="#hoc-van"><i class="fas fa-circle"></i></a></li>
             <li><a href=""><i class="fas fa-circle"></i></a></li>
             <li><a href=""><i class="fas fa-circle"></i></a></li>
         </ul>
@@ -86,12 +87,50 @@
         </div>
     </section>
     <section id="infor" class="infor">
-
-
+        <div class="item">
+            <table>
+                <tr class="name">
+                    <td colspan="2">Nguyễn Hữu Ánh</td>
+                </tr>
+                <tr>
+                    <td>Ngày Sinh</td>
+                    <td>: <label for="">  16-09-2000</label></td>
+                </tr>
+                <tr>
+                    <td>Giới Tính</td>
+                    <td>: <label for="">  Nam</label></td>
+                </tr>
+                <tr>
+                    <td>Số Điện Thoại</td>
+                    <td>: <label for="">  0388831609</label></td>
+                </tr>
+                <tr>
+                    <td>Địa Chỉ</td>
+                    <td>: <label for="">  Hiệp Thuận,Phúc Thọ, Hà Nội</label></td>
+                </tr>
+            </table>
+        </div>
+        <div class="avatar" onclick="showhien()"> 
+            <i class="fas fa-user"></i>
+            <i style="font-size: 0.8rem;">click để xem ảnh</i>
+        </div>
+        <div class="show-avatar" id="show-avatar" onclick="showan()">
+            <img src="img/avatar.jpg" alt="" width="500">
+        </div>
     </section>
 
-    <div class="te"></div>
-
+    <section id="hoc-van" class="hoc-van">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    
+                </div>
+                <div class="col-lg-6">
+                    gagaga
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="bootstrap/js/jquery-3.6.0.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
