@@ -11,17 +11,17 @@
 .fixed .fixed-top .logo img {
   width: 40px;
 }
-.fixed .fixed-top .contact {
+.fixed .fixed-top .contactt {
   display: inline-block;
   line-height: 100px;
   margin-left: 100px;
 }
-.fixed .fixed-top .contact a {
+.fixed .fixed-top .contactt a {
   font-size: 24px;
   color: var(--white);
   padding-left: 20px;
 }
-.fixed .fixed-top .contact a i:hover {
+.fixed .fixed-top .contactt a i:hover {
   color: var(--vang);
   transform: translateY(-3px);
   transition: all 0.1s ease;
@@ -61,7 +61,7 @@
 }
 
 @media screen and (max-width: 540px) {
-  .fixed .fixed-top .contact {
+  .fixed .fixed-top .contactt {
     display: none;
   }
   .fixed .fixed-top {
