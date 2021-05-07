@@ -84,7 +84,7 @@ textarea {
 	background-color: var(--black);
 	z-index: -1;
 	opacity: .85;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+	/* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)"; */
 }
 .single-contact {
 	text-align: left;
