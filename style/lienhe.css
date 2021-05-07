@@ -12,12 +12,12 @@
 .mb-100 {
 	margin-bottom: 100px;
 }
-a {
+/* a {
 	text-decoration: none;
 	color: #333;
 	-webkit-transition: .4s;
 	transition: .4s;
-}
+} */
 .section-title {
 	position: relative;
 }
@@ -39,7 +39,7 @@ a {
 	content: "";
 	width: 80px;
 	height: 2px;
-	background-color: #d8d8d8;
+	background-color: var(--gray);
 	bottom: 0;
 	left: 50%;
 	margin-left: -40px;
@@ -56,23 +56,22 @@ a {
 	margin-left: -25px;
 }
 .contact {
-	/* background-image: url("http://infinityflamesoft.com/html/abal-preview/assets/img/contact_back.jpg"); */
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	position: relative;
 	z-index: 2;
-	color: #fff;
+	color: var(--white);
 }
 .contact-form input,
 textarea {
 	width: 100%;
-	border: 1px solid #555;
+	border: 1px solid var(--gray);
 	padding: 5px 10px;
 	text-transform: capitalize;
 	margin-top: 15px;
 	background-color: transparent;
-	color: #fff;
+	color: var(--white);
 }
 .contact:before {
 	position: absolute;
@@ -84,7 +83,6 @@ textarea {
 	background-color: var(--black);
 	z-index: -1;
 	opacity: .85;
-	/* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)"; */
 }
 .single-contact {
 	text-align: left;
