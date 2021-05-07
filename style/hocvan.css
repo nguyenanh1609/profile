@@ -1,5 +1,27 @@
-.hoc-van{
-    height: 1024px;
+#hoc-van{
     width: 100%;
     border-top: 1px solid var(--gray);
+    color: var(--white);
+}
+.name-school{
+    text-align: center;
+    font-size: 24px;
+    color: var(--white);
+    background-color: var(--vang);
+    padding: 5px 10px;
+    color: var(--black);
+    font-weight: bold;
+    border-radius: 9px 9px 0px 0px;
+}
+.school{
+    border: 1px solid var(--vang);
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.list{
+    text-align: left;
+    padding: 10px 30px;
+
 }

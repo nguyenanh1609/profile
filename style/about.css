@@ -1,0 +1,49 @@
+#about{
+    color: var(--white);
+    border-top: 1px solid var(--gray);
+}
+.avatar img{
+    /* display: block; */
+    border-radius: 20px;
+    height: 250px;
+    /* text-align: ; */
+    display: none;
+    text-align: center;
+    margin: auto;
+}
+.icon-avatar{
+    font-size: 64px;
+    color: var(--white);
+}
+.icon-avatar i:hover{
+    color: var(--vang);
+}
+.name{
+    font-size: 32px;
+    color: var(--white);
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.data{
+    text-align: left;
+    border-bottom: 1px solid var(--vang);
+    /* border-left:1px solid var(--vang); */
+    padding-top:20px;
+}
+/* .data:hover{
+    border-bottom: 1px solid var(--white);
+
+} */
+/* hr{
+    color: #fff;
+    background-color: var(--vang);
+    border: 1px solid var(--vang);
+} */
+.icon-about{
+    color: var(--vang);
+}
+
+/* hr:hover{
+    color: blue;
+} */

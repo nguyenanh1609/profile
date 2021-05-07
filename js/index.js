@@ -11,9 +11,12 @@ function btnclose() {
 
 }
 function showhien() {
-    document.getElementById('show-avatar').style.display = "block"
+    document.getElementById('icon-avatar').style.display = "none"
+    document.getElementById('img-avatar').style.display = "block"
 }
 function showan() {
-    document.getElementById('show-avatar').style.display = "none"
+
+    document.getElementById('icon-avatar').style.display = "block"
+    document.getElementById('img-avatar').style.display = "none"
 }
 
