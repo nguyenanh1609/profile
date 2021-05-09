@@ -79,10 +79,3 @@
     display: none;
   }
 }
-footer{
-  width: 100%;
-  background-color: var(--vang);
-  color: var(--black);
-  padding: 10px;
-  text-align: center;
-}
