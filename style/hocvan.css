@@ -1,5 +1,6 @@
 #hoc-van{
     width: 100%;
+    min-height: 100vh;
     border-top: 1px solid var(--gray);
     color: var(--white);
 }
@@ -15,13 +16,13 @@
 }
 .school{
     border: 1px solid var(--vang);
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     border-radius: 10px;
     margin-top: 10px;
 
 }
 .list{
     text-align: left;
-    padding: 10px 30px;
+    padding: 10px 20px;
 
 }

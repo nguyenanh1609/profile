@@ -1,7 +1,7 @@
 .fixed .fixed-top {
   height: 100px;
   position: fixed;
-  top: 20px;
+  top: 0px;
   left: 50px;
 }
 .fixed .fixed-top .logo {
@@ -53,11 +53,15 @@
 .fixed-right ul li {
   padding: 15px 0px;
 }
-.fixed-right ul li a {
+.fixed-right ul li a label{
   color: var(--white);
+  border: 2px solid var(--white);
+  padding: 5px;
+  border-radius: 50%;
+  
 }
-.fixed-right ul li a:hover {
-  color: var(--vang);
+.fixed-right ul li a label:hover {
+  background-color: var(--vang);
 }
 
 @media screen and (max-width: 540px) {

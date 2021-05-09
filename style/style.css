@@ -1,84 +1,105 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html{
-    font-family: 'Poppins', sans-serif;
-    /* position: fixed; */
-    font-size: 16px
+html {
+  font-family: "Poppins", sans-serif;
+  /* position: fixed; */
+  font-size: 16px;
 }
-body{
-    background: #272727;
-    /* overflow: hidden; */
+body {
+  background: #272727;
+  /* overflow: hidden; */
 }
 
-:root{
-    --vang: #f3ca2f;
-    --white: #fff;
-    --black:#272727;
-    --gray:#7e7e7e;
+:root {
+  --vang: #f3ca2f;
+  --white: #fff;
+  --black: #272727;
+  --gray: #7e7e7e;
 }
 ::selection {
-    background:var(--vang); 
-    color:var(--white);
+  background: var(--vang);
+  color: var(--white);
 }
 
-.toi,.sang{
-    color: white;
+.toi,
+.sang {
+  color: white;
 }
 .pb-100 {
-    padding-bottom: 100px;
-  }
-  .pt-100 {
-    padding-top: 100px;
-  }
-  .mb-100 {
-    margin-bottom: 100px;
-  }
-  
-  .section-title {
-    position: relative;
-  }
-  .section-title p {
-    font-size: 16px;
-    margin-bottom: 5px;
-    font-weight: 400;
-  }
-  .section-title h4 {
-    font-size: 40px;
-    font-weight: 600;
-    text-transform: capitalize;
-    position: relative;
-    padding-bottom: 20px;
-    display: inline-block;
-  }
-  .section-title h4::before {
-    position: absolute;
-    content: "";
-    width: 80px;
-    height: 2px;
-    background-color: var(--white);
-    bottom: 0;
-    left: 50%;
-    margin-left: -40px;
-  }
-  .section-title h4::after {
-    position: absolute;
-    content: "";
-    width: 50px;
-    height: 2px;
-    background-color: var(--vang);
-    left: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -25px;
-  }
-  footer{
-    width: 100%;
-    background-color: var(--vang);
-    color: var(--black);
-    padding: 10px;
-    text-align: center;
-  }
-  
+  padding-bottom: 100px;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.section-title {
+  position: relative;
+}
+.section-title p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.section-title h4 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+  position: relative;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+.section-title h4::before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: var(--white);
+  bottom: 0;
+  left: 50%;
+  margin-left: -40px;
+}
+.section-title h4::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: var(--vang);
+  left: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -25px;
+}
+footer {
+  width: 100%;
+  background-color: var(--vang);
+  color: var(--black);
+  padding: 10px;
+  text-align: center;
+}
+
+/* #home:hover ~ .fixed-right ul li a[href="#home"] {
+  color: var(--vang);
+}
+#about:hover ~ .fixed-right ul li a[href="#about"] {
+  color: var(--vang);
+}
+#hoc-van:hover ~ .fixed-right ul li a[href="#hoc-van"] {
+  color: var(--vang);
+}
+#ngonngu:hover ~ .fixed-right ul li a[href="#ngonngu"] {
+  color: var(--vang);
+}
+#thanhtich:hover ~ .fixed-right ul li a[href="#thanhtich"] {
+  color: var(--vang);
+}
+#contact:hover ~ .fixed-right ul li a[href="#contact"] {
+  color: var(--vang);
+} */
+
+
