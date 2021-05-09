@@ -10,6 +10,7 @@
     display: none;
     text-align: center;
     margin: auto;
+    margin-top: 10px;
 }
 .icon-avatar{
     font-size: 64px;

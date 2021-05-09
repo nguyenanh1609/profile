@@ -20,3 +20,6 @@ function showan() {
     document.getElementById('img-avatar').style.display = "none"
 }
 
+function onmouseout() {
+    
+}
