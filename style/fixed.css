@@ -43,7 +43,7 @@
 .fixed-right {
   position: fixed;
   right: 30px;
-  top: 400px;
+  top: 35vh;
   z-index: 666;
 }
 .fixed-right ul {
@@ -51,7 +51,7 @@
   list-style-type: none;
 }
 .fixed-right ul li {
-  padding: 15px 0px;
+  padding: 10px 0px;
 }
 .fixed-right ul li a label{
   color: var(--white);

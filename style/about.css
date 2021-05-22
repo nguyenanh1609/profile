@@ -6,8 +6,8 @@
 }
 .avatar img{
     /* display: block; */
-    border-radius: 20px;
-    height: 250px;
+    border-radius: 50%;
+    height: 300px;
     /* text-align: ; */
     display: none;
     text-align: center;
